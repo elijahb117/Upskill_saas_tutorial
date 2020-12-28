@@ -20,3 +20,23 @@
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
+
+.navbar, .home-callout {
+    //Gradient provieded by https://twitter.com/_ighosh at uigradient.com
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left, #3498db, #2c3e50);
+    background: -moz-linear-gradient(left, #3498db, #2c3e50);
+    background: -o-linear-gradient(left, #3498db, #2c3e50);
+    background: linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+    border: none;
+}
+
+.home-callout {
+    color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
