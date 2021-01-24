@@ -24,5 +24,7 @@ Extra Programs
 *Heroku - Hosting 
 *GitHub - Storing code
 *Stripe - Handling credit cards
+*Devise - For authenticaton
+*Figaro - For hiding files from github and heroku
 
 
