@@ -1,6 +1,5 @@
+
 source 'https://rubygems.org'
-
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0'
 # Use Puma as the app server
@@ -13,7 +12,6 @@ gem 'uglifier', '3.0.0'
 gem 'coffee-rails', '4.2.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '4.1.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -24,26 +22,21 @@ gem 'jbuilder', '2.5.0'
 # gem 'redis', '3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
 gem 'bootstrap-sass', '3.3.7'
-
 #Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
-
 #Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
-
 # Use Devise for user authentication
 gem 'devise', '4.2.0'
-
 # Use Stripe for payment processing
 gem 'stripe', '1.48.0'
-
 # Use Figaro for ENV variables
 gem 'figaro', '1.1.1'
+# Use Paperclip for image upload
+gem 'paperclip', '4.3.6'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -51,7 +44,6 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
-
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
@@ -60,7 +52,6 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '2.0.0'
 end
-
 group :production do
   # Use the postgreSQL for Heroku production server
   gem 'pg', '0.18.4'
